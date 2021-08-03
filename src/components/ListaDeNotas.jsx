@@ -1,14 +1,22 @@
-export function ListaDeNotas() {
-  return (
-    <ul>
-      <li>
-        <section>
-          <header>
-            <h3>Título</h3>
-          </header>
-          <p>Escreva sua nota</p>
-        </section>
-      </li>
-    </ul>
-  );
+import React, { Component } from "react";
+import CardNota from "./CardNota";
+
+class ListaDeNotas extends Component {
+  render() {
+    return (
+      <ul>
+        <li>
+          <CardNota />
+        </li>
+        <li>
+          <CardNota />
+        </li>
+        <li>
+          <CardNota />
+        </li>
+      </ul>
+    );
+  }
 }
+
+export default ListaDeNotas;
