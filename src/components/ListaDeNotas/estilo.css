@@ -1,0 +1,12 @@
+.lista-notas {
+  display: flex;
+  flex-grow: 2;
+  margin: 1em;
+  flex-wrap: wrap;
+}
+
+.lista-notas_item {
+  padding: 1em;
+  max-width: 240px;
+  max-height: 240px;
+}
