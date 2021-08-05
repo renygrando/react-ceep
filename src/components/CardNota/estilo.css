@@ -13,15 +13,15 @@
 
 .card-nota_cabecalho {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .card-nota_titulo {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .card-nota_texto {
-  margin-top: 8px;
+  margin-top: 0.5em;
   font-size: 1em;
 }
