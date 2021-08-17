@@ -4,6 +4,8 @@
   justify-content: space-between;
   flex-grow: 2;
   min-height: 50vh;
+  max-height: 50vh;
+  max-width: 30vh;
   padding: 16px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   border-radius: 1em;
